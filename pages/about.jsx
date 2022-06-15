@@ -10,7 +10,7 @@ const About = () => {
                 
                 <div className=" w-full h-screen absolute top-0 left-0 -z-50 bg-[url('/dcrust2.jpg')]  brightness-50 contrast-125 bg-no-repeat bg-cover ">
                     </div>
-                    <div className="text-center  text-white relative top-0 py-[20%] px-[0%] " >
+                    <div className="text-center h-[90vh] text-white relative top-0 py-[20%] px-[0%] " >
                         <div className="text-3xl font-bold">Welcome To CSE Dept.!</div>
                         <div className="text-5xl font-bold uppercase">Its Nice To Meet You</div>
                         <Link href={"/blogs"}>
