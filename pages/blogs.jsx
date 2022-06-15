@@ -2,25 +2,25 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Footer from '../components/Footer'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 import Navbarhome from '../components/Navbarhome'
 
-export default function Home() {
-
-  return (
-    <>
+const Blogs = () => {
+    return (
+        <>
       
-      <div className="container mx-auto px-14">
-        <section className="flex-col  pt-8 md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12 px-10 mx-auto">
-          <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">DCRUST.</h1>
-          <h4 className="text-center font-verdana font-light md:text-left text-lg mt-5 md:pl-8">Dept. of Computer Science and Engineering</h4>
+      <div className="container mx-auto px-14 ">
+        <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12 px-10 mx-auto">
+          <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">BLOGS.</h1>
+          <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">Dept. of Computer Science and Engineering</h4>
         </section>
         <section>
           <div className="mb-8 md:mb-16  lg:px-8">
-            <div className="-mx-5 my-14 sm:mx-2 lg:px-4">
+            <div className="-mx-5 my-14 sm:mx-2 lg:px-0">
               <a aria-label="Learn How to Pre-render Pages Using Static Generation with Next.js" href="">
                 <div className="relative w-5/5 h-80 ">
                   <Image
-                    src={"/dcrust1.jpg"}
+                    src={"/blogs1.jpg"}
                     alt="Picture of the author"
                     layout="fill" // required
                     objectFit="cover" // change to suit your needs
@@ -58,5 +58,7 @@ export default function Home() {
       </div>
       <Footer />
     </>
-  )
+    )
 }
+
+export default Blogs
