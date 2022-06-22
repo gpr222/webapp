@@ -10,11 +10,12 @@ export default function Blog({ frontmatter, markdown }) {
             <Head>
                 <title>Demo Blog | {frontmatter.title}</title>
             </Head>
-            <h1>{frontmatter.title}</h1>
-            <span> <img src= {frontmatter.poster}  /></span>
-            <h3>{frontmatter.author}</h3>
+            
             <hr />
             <div className='prose mx-auto'>
+            <h1>{frontmatter.title}</h1>
+            <div ><img src= {frontmatter.poster}  className='object-cover w-full'/></div>
+            <h3>{frontmatter.author}</h3>
             <ReactMarkdown>
                 {markdown}
             </ReactMarkdown>

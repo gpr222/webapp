@@ -41,6 +41,12 @@ const config = {
           name: 'author',
           widget: 'string',
         },
+        {
+          label: 'Excerpt',
+          name: 'excerpt',
+          widget: 'string',
+        },
+
         
       ],
 

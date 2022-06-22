@@ -54,9 +54,9 @@ const Blogs = ({ blogs }) => {
                     </div>
                     <div>
                       <div className="text-lg leading-relaxed mb-4">
-                        <ReactMarkdown>
-                          {blog.data}
-                        </ReactMarkdown>
+                        
+                          {blog.excerpt}
+                        
 
                       </div>
                       <div className="flex items-center">
