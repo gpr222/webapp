@@ -27,7 +27,7 @@ const Blogs = ({ blogs }) => {
                   <div className="-mx-5 my-14 sm:mx-2 lg:px-0">
                     <a aria-label={blog.title} href={`/blogs/${blog.slug}`}>
                       <div className="relative w-5/5 h-80 ">
-                        <img
+                        <Image
                           // src={"/blogs1.jpg"}
                           src={`${blog.poster}`}
                           alt="Picture of the author"
@@ -35,7 +35,7 @@ const Blogs = ({ blogs }) => {
                           objectFit="cover" // change to suit your needs
                           className="max-w-full rounded-xl " // just an example
                         />
-                        {console.log(blog)}
+                        
 
 
                       </div>

@@ -45,6 +45,42 @@ const config = {
       ],
 
     },
+
+    {
+      name: 'events',
+      label: 'Events',
+      folder: 'content/events',
+      create: true,
+      slug: "{{slug}}",
+      fields: [
+        {
+          label: "Layout",
+          name: "layout",
+          widget: "hidden",
+          default: "event"
+        },
+        {
+          label: 'Title',
+          name: 'title',
+          widget: 'string',
+        },
+        {
+          label: 'Body',
+          name: 'body',
+          widget: 'markdown'
+        },
+        {
+          label: 'Poster',
+          name: 'poster',
+          widget: 'image',
+        },
+        
+        
+
+        
+      ],
+
+    },
   ],
 };
 
