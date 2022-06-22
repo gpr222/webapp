@@ -32,15 +32,16 @@ const config = {
           widget: 'markdown'
         },
         {
+          label: 'Poster',
+          name: 'poster',
+          widget: 'image',
+        },
+        {
           label: 'Author',
           name: 'author',
           widget: 'string',
         },
-        {
-          label: 'Date',
-          name: 'date',
-          widget: 'date'
-        },
+        
       ],
 
     },
