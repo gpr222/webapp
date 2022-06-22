@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Deploying Next.js Apps
+title: "Deploying Next.js Apps "
 poster: img/nss_84.png
 author: "JACK "
 ---
