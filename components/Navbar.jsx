@@ -29,13 +29,13 @@ export const Navbar = () => {
                 src={"/logo.png"}
                 alt="Picture of the college"
                 layout="fill" // required
-                 // change to suit your needs
+                // change to suit your needs
                 className="max-w-full   " // just an example
               />
 
 
             </div>
-            <span className='text-xl text-white font-bold uppercase tracking-wide'>
+            <span className=' text-white font-bold uppercase tracking-wide text-xl'>
               DCRUST
             </span>
           </a>
