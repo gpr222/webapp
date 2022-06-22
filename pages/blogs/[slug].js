@@ -14,9 +14,11 @@ export default function Blog({ frontmatter, markdown }) {
             <span> <img src= {frontmatter.poster}  /></span>
             <h3>{frontmatter.author}</h3>
             <hr />
+            <div className='prose mx-auto'>
             <ReactMarkdown>
                 {markdown}
             </ReactMarkdown>
+            </div>
         </div>
     )
 }

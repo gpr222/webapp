@@ -11,12 +11,14 @@ export default function Event({ frontmatter, markdown }) {
                 <title>Demo Event | {frontmatter.title}</title>
             </Head>
             <h1>{frontmatter.title}</h1>
-            <span> <Image src= {frontmatter.poster}  /></span>
+            <span> <img src={frontmatter.poster} /></span>
             <h3>{frontmatter.author}</h3>
             <hr />
-            <ReactMarkdown>
-                {markdown}
-            </ReactMarkdown>
+            <div className='prose mx-auto'>
+                <ReactMarkdown>
+                    {markdown}
+                </ReactMarkdown>
+            </div>
         </div>
     )
 }

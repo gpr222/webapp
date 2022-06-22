@@ -27,12 +27,12 @@ const Events = ({ events }) => {
                   <div className="-mx-5 my-14 sm:mx-2 lg:px-0">
                     <a aria-label={event.title} href={`/events/${event.slug}`}>
                       <div className="relative w-5/5 h-80 ">
-                        <Image
+                        <img
                           // src={"/blogs1.jpg"}
                           src={`${event.poster}`}
                           alt="Picture of the author"
                           layout="fill" // required
-                          objectFit="cover" // change to suit your needs
+                         
                           className="max-w-full rounded-xl " // just an example
                         />
                         
