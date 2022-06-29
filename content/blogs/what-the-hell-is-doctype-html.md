@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: What the hell is <!DOCTYPE html>?
-poster: https://res.cloudinary.com/practicaldev/image/fetch/s--IGeYkz-V--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xrq3yzx8x5esa4um4259.jpg
+poster: https://cdn5.f-cdn.com/contestentries/1162950/18299824/59efa1ae1a01a_thumb900.jpg
 author: Pranav Garg
 excerpt: When creating a new HTML file, you might have wondered, “Why do I need
   to add this statement to the first line of my HTML file? Doesn’t the .html
