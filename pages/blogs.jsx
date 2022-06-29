@@ -29,7 +29,7 @@ const Blogs = ({ blogs }) => {
                       <div className="relative w-5/5 h-80 ">
                         <Image
                           // src={"/blogs1.jpg"}
-                          src={`${blog.poster}`}
+                          src = {`${blog.poster.indexOf(':') === -1 ? '/' : ''}${blog.poster}`}
                           alt="Picture of the author"
                           layout="fill" // required
                           objectFit="cover" // change to suit your needs
