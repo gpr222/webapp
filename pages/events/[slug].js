@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown'
 import matter from 'gray-matter'
 import Head from 'next/head'
 import Image from 'next/image'
+import Footer from '../../components/Footer'
 
 export default function Event({ frontmatter, markdown }) {
     return (
@@ -13,7 +14,7 @@ export default function Event({ frontmatter, markdown }) {
             
             <hr />
             
-            <div className='prose mx-auto'>
+            <div className='prose mx-auto mb-8 mt-4'>
             <h1>{frontmatter.title}</h1>
             <div ><img src = {`${frontmatter.poster.indexOf(':') === -1 ? '/' : ''}${frontmatter.poster}`}  className='object-cover w-full'/></div>
             <h3>{frontmatter.author}</h3>
@@ -21,6 +22,7 @@ export default function Event({ frontmatter, markdown }) {
                 {markdown}
             </ReactMarkdown>
             </div>
+            <Footer/>
         </div>
     )
 }

@@ -12,9 +12,9 @@ export default function Blog({ frontmatter, markdown }) {
             </Head>
             
             <hr />
-            <div className='prose mx-auto'>
+            <div className='prose mx-auto mb-8 mt-4'>
             <h1>{frontmatter.title}</h1>
-            <div ><img src= {frontmatter.poster}  className='object-cover w-full'/></div>
+            <div ><img src= {`${frontmatter.poster.indexOf(':') === -1 ? '/' : ''}${frontmatter.poster}`}   className='object-cover w-full'/></div>
             <h3>{frontmatter.author}</h3>
             <ReactMarkdown>
                 {markdown}
