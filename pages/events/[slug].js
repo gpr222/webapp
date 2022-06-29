@@ -12,9 +12,10 @@ export default function Event({ frontmatter, markdown }) {
             </Head>
             
             <hr />
+            
             <div className='prose mx-auto'>
             <h1>{frontmatter.title}</h1>
-            <div ><img src= {frontmatter.poster}  className='object-cover w-full'/></div>
+            <div ><img src = {`${frontmatter.poster.indexOf(':') === -1 ? '/' : ''}${frontmatter.poster}`}  className='object-cover w-full'/></div>
             <h3>{frontmatter.author}</h3>
             <ReactMarkdown>
                 {markdown}
