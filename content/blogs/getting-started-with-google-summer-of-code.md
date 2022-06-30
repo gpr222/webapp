@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Getting Started with Google Summer of Code
+title: Getting Started with Google Summer of Code 2022
 poster: img/moodle_general_googlesummerofcode-1-.webp
 author: Divyam
 excerpt: This spring, I was selected to participate in [Google Summer of Code
