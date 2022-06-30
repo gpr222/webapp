@@ -87,6 +87,47 @@ const config = {
       ],
 
     },
+
+    {
+      name: 'publications',
+      label: 'Publications',
+      folder: 'content/publications',
+      create: true,
+      slug: "{{slug}}",
+      fields: [
+        {
+          label: "Layout",
+          name: "layout",
+          widget: "hidden",
+          default: "publication"
+        },
+        {
+          label: 'Title',
+          name: 'title',
+          widget: 'string',
+        },
+        {
+          label: 'Body',
+          name: 'body',
+          widget: 'markdown'
+        },
+        {
+          label: 'Author',
+          name: 'author',
+          widget: 'string',
+        },
+        {
+          label: 'File',
+          name: 'file',
+          widget: 'file',
+        },
+        
+        
+
+        
+      ],
+
+    },
   ],
 };
 
