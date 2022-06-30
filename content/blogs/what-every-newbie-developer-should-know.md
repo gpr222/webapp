@@ -2,7 +2,7 @@
 layout: blog
 title: What every newbie developer should know !!!
 poster: img/36x39oym2lrcd6bf15pg.webp
-author: Divyam
+author: Pranav Garg
 excerpt: At some point in our career, we've had to look back at how we started
   and how we are progressing and then we ask that important question, what would
   have been beneficial to a less experienced me?
