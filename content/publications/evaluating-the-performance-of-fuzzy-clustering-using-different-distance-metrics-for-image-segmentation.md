@@ -1,7 +1,7 @@
 ---
 layout: publication
-title: Evaluating the performance of Fuzzy Clustering using different distance
-  metrics for Image Segmentation
-author: Dr. Ajmer Singh
-file: img/ajmer2.pdf
+title: Taxonomy of machine learning algorithms in software fault prediction
+  using object oriented metrics
+author: Ajmer Singh, Rajesh Bhatia, Anita Singhrova
+file: img/ajmer3.pdf
 ---
