@@ -106,11 +106,7 @@ const config = {
           name: 'title',
           widget: 'string',
         },
-        {
-          label: 'Body',
-          name: 'body',
-          widget: 'markdown'
-        },
+        
         {
           label: 'Author',
           name: 'author',
