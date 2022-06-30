@@ -23,9 +23,9 @@ const Publications = ({ publications }) => {
             {publications.map(publication => (
               <div
                 key={publication.slug}
-                className='border border-gray-200 m-2 rounded-xl shadow-lg overflow-hidden flex flex-col justify-between'>
+                className='border border-gray-200 hover:shadow-slate-800 m-2 rounded-xl shadow-lg overflow-hidden flex flex-col justify-between'>
                   <div className=''>
-                <h1 className='p-4 pb-0 font-extrabold text-center'>{publication.title}</h1>
+                <h1 className='p-4 pb-0 font-extrabold text-center font-serif'>{publication.title}</h1>
                 <h2 className='p-2 text-center justify-end'>- {publication.author}</h2>
                 </div>
                 <Link href={`${publication.file.indexOf(':') === -1 ? '/' : ''}${publication.file}`} >

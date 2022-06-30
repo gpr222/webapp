@@ -124,6 +124,49 @@ const config = {
       ],
 
     },
+
+    {
+      name: 'projects',
+      label: 'Projects',
+      folder: 'content/projects',
+      create: true,
+      slug: "{{slug}}",
+      fields: [
+        {
+          label: "Layout",
+          name: "layout",
+          widget: "hidden",
+          default: "project"
+        },
+        {
+          label: 'Title',
+          name: 'title',
+          widget: 'string',
+        },
+        
+        {
+          label: 'Author',
+          name: 'author',
+          widget: 'string',
+        },
+        {
+          label: 'Poster',
+          name: 'poster',
+          widget: 'image',
+        },
+        {
+          label: 'Link',
+          name: 'link',
+          widget: 'string',
+        },
+
+        
+        
+
+        
+      ],
+
+    },
   ],
 };
 
