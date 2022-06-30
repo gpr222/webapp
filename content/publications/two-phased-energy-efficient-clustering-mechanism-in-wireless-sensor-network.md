@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: Two-phased Energy Efficient Clustering Mechanism in Wireless Sensor Network
-author: S Indora , D Singh
-file: img/52.-sanjeev.pdf
+title: "Smart metering in smart grid framework: A review"
+author: Dr. Ajmer Singh
+file: img/ajmer1.pdf
 ---
