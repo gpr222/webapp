@@ -2,6 +2,6 @@
 layout: project
 title: jsNes
 author: Pranav
-poster: img/36x39oym2lrcd6bf15pg.webp
+poster: img/screenshot-381-.png
 link: https://jsnes.netlify.app
 ---
