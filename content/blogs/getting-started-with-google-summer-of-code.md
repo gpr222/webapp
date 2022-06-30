@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Getting Started with Google Summer of Code
-poster: https://moodle.com/wp-content/uploads/2019/09/Moodle_General_googlesummerofcode.png
+poster: img/moodle_general_googlesummerofcode-1-.webp
 author: Divyam
 excerpt: This spring, I was selected to participate in [Google Summer of Code
   (GSoC)](http://summerofcode.withgoogle.com/), a program that pairs student
